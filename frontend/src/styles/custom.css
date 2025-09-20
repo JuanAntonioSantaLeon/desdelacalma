@@ -1,0 +1,82 @@
+:root{
+  --pastel-orange: #FFB347;
+  --pastel-green:  #77DD77;
+  --pastel-blue:   #AEC6CF;
+  --pastel-pink:   #FFB6C1;
+
+  --text-dark: #2f3136;
+  --text-light: #ffffff;
+  --page-bg: #fbfbfd; /* fondo muy sutil */
+}
+
+/* ===== Body / fondo global ===== */
+body {
+  background-color: var(--page-bg);
+  color: var(--text-dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== Header (más específico para sobreescribir Bootstrap) ===== */
+.navbar.custom-header {
+  background-color: var(--pastel-blue) !important;
+  color: var(--text-dark);
+  box-shadow: 0 1px 8px rgba(47,49,54,0.04);
+}
+
+.navbar.custom-header .navbar-brand,
+.navbar.custom-header .nav-link {
+  color: var(--text-dark) !important;
+  font-weight: 500;
+}
+
+.navbar.custom-header .nav-link:hover,
+.navbar.custom-header .nav-link:focus {
+  color: var(--pastel-pink) !important;
+}
+
+/* ===== Footer ===== */
+.custom-footer{
+  background-color: var(--pastel-orange) !important;
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+/* ===== Botones pastel ===== */
+.btn-pastel-orange {
+  background-color: var(--pastel-orange);
+  color: var(--text-dark);
+  border: none;
+}
+.btn-pastel-orange:hover { background-color: #e6a13e; color: var(--text-light); }
+
+.btn-pastel-green {
+  background-color: var(--pastel-green);
+  color: var(--text-dark);
+  border: none;
+}
+.btn-pastel-green:hover { background-color: #66c466; color: var(--text-light); }
+
+.btn-pastel-blue {
+  background-color: var(--pastel-blue);
+  color: var(--text-dark);
+  border: none;
+}
+.btn-pastel-blue:hover { background-color: #95b2bb; color: var(--text-light); }
+
+.btn-pastel-pink {
+  background-color: var(--pastel-pink);
+  color: var(--text-dark);
+  border: none;
+}
+.btn-pastel-pink:hover { background-color: #e09aaa; color: var(--text-light); }
+
+/* ===== Utilidades de texto ===== */
+.text-pastel-orange { color: var(--pastel-orange) !important; }
+.text-pastel-green  { color: var(--pastel-green)  !important; }
+.text-pastel-blue   { color: var(--pastel-blue)   !important; }
+.text-pastel-pink   { color: var(--pastel-pink)   !important; }
+
+/* ===== Ajustes de altura para ver claramente el header ===== */
+.navbar.custom-header { min-height: 64px; }
+.custom-footer { min-height: 56px; display:flex; align-items:center; justify-content:center; }
