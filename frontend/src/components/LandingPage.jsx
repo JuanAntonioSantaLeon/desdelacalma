@@ -22,7 +22,7 @@ function LandingPage() {
             alt="slide1"
           />
           <div className="carousel-caption d-flex flex-column justify-content-center h-100">
-            <h1 className="fw-bold">Bienvenido a Nuestro Proyecto</h1>
+            <h1 className="fw-bold">Bienvenido a Desde la Calma</h1>
             <p className="lead">Una plataforma hecha con calma y propósito.</p>
             <a href="#conocenos" className="btn btn-light btn-lg mt-3">
               Conócenos
@@ -37,8 +37,8 @@ function LandingPage() {
             alt="slide2"
           />
           <div className="carousel-caption d-flex flex-column justify-content-center h-100">
-            <h1 className="fw-bold">Minimalista y Potente</h1>
-            <p className="lead">Diseñado para ofrecer lo esencial sin distracciones.</p>
+            <h1 className="fw-bold">Experimenta la desconexión</h1>
+            <p className="lead">Conecta contigo mismo en este precioso pueblo de Burgos</p>
             <a href="#conocenos" className="btn btn-light btn-lg mt-3">
               Conócenos
             </a>
@@ -52,8 +52,8 @@ function LandingPage() {
             alt="slide3"
           />
           <div className="carousel-caption d-flex flex-column justify-content-center h-100">
-            <h1 className="fw-bold">Hecho con React y DRF</h1>
-            <p className="lead">Backend sólido, frontend moderno.</p>
+            <h1 className="fw-bold">Vuelve a la vida rural </h1>
+            <p className="lead">Vuelve a la sencillez de la vida en esta villa natural y tranquilo</p>
             <a href="#conocenos" className="btn btn-light btn-lg mt-3">
               Conócenos
             </a>
